@@ -1,0 +1,15 @@
+{
+  "src": "/src/igraph",
+  "file": "/out/read_pajek",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "igraph_strvector_set_len"
+  ],
+  "pre_build": [
+    "rm -rf /src/deps /src/igraph/build /src/libxml2-2.11.5"
+  ],
+  "patch": "https://github.com/igraph/igraph/commit/c32ae3b44074c280e1a8cc3ff3fe8899040753ff"
+}

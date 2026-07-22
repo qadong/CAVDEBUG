@@ -1,0 +1,12 @@
+{
+  "src": "/src/inchi",
+  "file": "/out/inchi_input_fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "CtPartFill"
+  ],
+  "patch": "https://github.com/IUPAC-InChI/InChI/commit/baaaba0d2181a8b6b2f38c194a74e6c2041c5fc8"
+}

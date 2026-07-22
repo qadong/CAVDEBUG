@@ -1,0 +1,15 @@
+{
+  "src": "/src/h3",
+  "file": "/out/fuzzerVertexes",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "cellToVertex"
+  ],
+  "pre_build": [
+    "rm -rf /src/h3/build"
+  ],
+  "patch": "https://github.com/uber/h3/commit/fdc32aec1ff50e79d04ccffbfefa5f82acd72afe"
+}

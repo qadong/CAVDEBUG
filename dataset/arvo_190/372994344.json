@@ -1,0 +1,12 @@
+{
+  "src": "/src/gpac",
+  "file": "/out/fuzz_m2ts_probe",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "gf_m2ts_demux_del"
+  ],
+  "patch": "https://github.com/gpac/gpac/commit/a40c0dede301c1c0db9458b6a401fba6c199ebd4"
+}

@@ -1,0 +1,12 @@
+{
+  "src": "/src/faad2",
+  "file": "/out/fuzz_decode",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "gen_rand_vector"
+  ],
+  "patch": "https://github.com/knik0/faad2/commit/5cee79dded54abbe3a5fbf5f87ca1f3951bd0347"
+}

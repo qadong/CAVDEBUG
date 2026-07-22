@@ -1,0 +1,12 @@
+{
+  "src": "/src/FreeRDP",
+  "file": "/out/TestFuzzCoreClient",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "redirection_free_array"
+  ],
+  "patch": "https://github.com/FreeRDP/FreeRDP/commit/b75727603467b30ff878d2819f8b438e3b8617d3"
+}

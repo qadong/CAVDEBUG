@@ -1,0 +1,5 @@
+method,backend,denominator,reference_equivalent,alternative_secure,ssc_positive,partial_repair,crash_site_mitigation,overfitting_or_masking,incorrect_or_unresolved,inconclusive_or_blank
+Mini-SWE-Agent,DeepSeek-V4-Flash,200,38,53,91,39,17,16,37,0
+Codex,DeepSeek-V4-Flash,200,28,35,63,24,9,13,90,1
+OpenHands,DeepSeek-V4-Flash,200,49,32,81,25,5,14,68,7
+CAVDBG,DeepSeek-V4-Flash,200,48,54,102,50,2,27,18,1

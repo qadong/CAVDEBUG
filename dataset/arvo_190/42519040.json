@@ -1,0 +1,12 @@
+{
+  "src": "/src/pjsip",
+  "file": "/out/fuzz-stun",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "pj_memcpy"
+  ],
+  "patch": "https://github.com/pjsip/pjproject/commit/d8440f4d711a654b511f50f79c0445b26f9dd1e1"
+}

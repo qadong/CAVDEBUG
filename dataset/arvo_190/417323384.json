@@ -1,0 +1,15 @@
+{
+  "src": "/src/jq",
+  "file": "/out/jq_fuzz_execute",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "jv_string_vfmt"
+  ],
+  "pre_build": [
+    "rm -rf /src/seeds"
+  ],
+  "patch": "https://github.com/jqlang/jq/commit/c6e041699d8cd31b97375a2596217aff2cfca85b"
+}

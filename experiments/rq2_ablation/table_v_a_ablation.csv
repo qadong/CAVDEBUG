@@ -1,0 +1,7 @@
+dataset,variant,numerator,denominator,cfr_percent
+SECBENCH,Full CAVDBG,190,200,95.0
+SECBENCH,w/o CAI,186,200,93.0
+SECBENCH,w/o CF & CAI,180,200,90.0
+ARVO-Rand,Full CAVDBG,172,190,90.5
+ARVO-Rand,w/o CAI,169,190,88.9
+ARVO-Rand,w/o CF & CAI,162,190,85.3

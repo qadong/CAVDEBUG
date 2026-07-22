@@ -1,0 +1,15 @@
+{
+  "src": "/src/jq",
+  "file": "/out/jq_fuzz_execute",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "validate_relpath"
+  ],
+  "pre_build": [
+    "rm -rf /src/seeds"
+  ],
+  "patch": "https://github.com/jqlang/jq/commit/dc849e9bb74a7a164a3ea52f661cc712b1ffbd43"
+}

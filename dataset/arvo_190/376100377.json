@@ -1,0 +1,19 @@
+{
+  "src": "/src/kamailio",
+  "file": "/out/fuzz_parse_msg",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "extract_ice_option"
+  ],
+  "pre_build": [
+    "rm -rf /src/kamailio/src/objects/"
+  ],
+  "build": "cd .. && bear arvo compile",
+  "post_build": [
+    "mv ../compile_commands.json ."
+  ],
+  "patch": "https://github.com/kamailio/kamailio/commit/b96bc11a54f11ec688429c057bf5a90c40c147b3"
+}

@@ -1,0 +1,12 @@
+{
+  "src": "/src/inchi",
+  "file": "/out/inchi_input_fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "SortedEquInfoToRanks"
+  ],
+  "patch": "https://github.com/IUPAC-InChI/InChI/commit/ab664e42efd0bd719e7c4b473755f66cb881ae0d"
+}

@@ -1,0 +1,12 @@
+{
+  "src": "/src/util-linux",
+  "file": "/out/test_blkid_fuzz",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "merge_utf16be_ascii"
+  ],
+  "patch": "https://github.com/util-linux/util-linux/commit/32bd447fd7d0933c5aecac75cc1823b3ee897f11"
+}

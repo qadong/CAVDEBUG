@@ -1,0 +1,15 @@
+{
+  "src": "/src/httpd",
+  "file": "/out/fuzz_preq",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "apreq_header_attribute"
+  ],
+  "pre_build": [
+    "sed -i '8s/.*/make -j/' /src/build.sh"
+  ],
+  "patch": "https://github.com/apache/httpd/commit/6b1247e8a6ce5708d57187cb33db5f6da96f86dc"
+}

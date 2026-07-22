@@ -1,0 +1,12 @@
+{
+  "src": "/src/selinux",
+  "file": "/out/secilc-fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "cil_symtab_datum_remove_node"
+  ],
+  "patch": "https://github.com/SELinuxProject/selinux/commit/2f2742e98ca1a4ae6c242edfa1fa0d5d178121b8"
+}

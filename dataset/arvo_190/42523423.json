@@ -1,0 +1,12 @@
+{
+  "src": "/src/mosquitto",
+  "file": "/out/dynsec_fuzz_load",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "dynsec_clients__find"
+  ],
+  "patch": "https://github.com/eclipse/mosquitto/commit/56462c122925f716865827cc5505f671c2933aca"
+}

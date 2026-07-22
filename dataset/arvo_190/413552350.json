@@ -1,0 +1,12 @@
+{
+  "src": "/src/quickjs",
+  "file": "/out/fuzz_compile",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "clz64"
+  ],
+  "patch": "https://github.com/bellard/quickjs/commit/638ec8ca5e1d4aed002a9fb3ef3358e2a6bc42ab"
+}

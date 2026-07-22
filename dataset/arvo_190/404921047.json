@@ -1,0 +1,12 @@
+{
+  "src": "/src/wamr",
+  "file": "/out/wasm_mutator_fuzz_loader",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "wasm_loader_prepare_bytecode"
+  ],
+  "patch": "https://github.com/bytecodealliance/wasm-micro-runtime/commit/9aaf3599ec69469f6ab3b4373bfb0d8e6b3345b9"
+}

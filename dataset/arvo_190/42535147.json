@@ -1,0 +1,12 @@
+{
+  "src": "/src/pjsip",
+  "file": "/out/fuzz-crypto",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "encode_base64_differential"
+  ],
+  "patch": "https://github.com/pjsip/pjproject/commit/f406002f688eb58c3461cb90f6ac9c5b3459fbfd"
+}

@@ -1,0 +1,12 @@
+{
+  "src": "/src/unit",
+  "file": "/out/fuzz_json",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "nxt_vsprintf"
+  ],
+  "patch": "https://github.com/nginx/unit/commit/8e254a4d6762da22bc1967140ef85cf8fedfa02d"
+}

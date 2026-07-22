@@ -1,0 +1,12 @@
+{
+  "src": "/src/quickjs",
+  "file": "/out/fuzz_eval",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "build_for_in_iterator"
+  ],
+  "patch": "https://github.com/bellard/quickjs/commit/d7cdfdc8d7b8e74a6be74f4f3535ef6eac976dc1"
+}

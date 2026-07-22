@@ -1,0 +1,12 @@
+{
+  "src": "/src/mosquitto",
+  "file": "/out/broker_fuzz_test_config",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "mosquitto__strdup"
+  ],
+  "patch": "https://github.com/eclipse/mosquitto/commit/3fd5ba5f186c6225e0c1dc9dd100d125d15ceda7"
+}

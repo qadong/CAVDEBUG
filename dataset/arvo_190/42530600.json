@@ -1,0 +1,12 @@
+{
+  "src": "/src/wolfmqtt",
+  "file": "/out/wolfmqtt-fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "MqttProps_Free"
+  ],
+  "patch": "https://github.com/wolfSSL/wolfMQTT/commit/96c69d875b91fba9ac501f1376144bf662644252"
+}

@@ -1,0 +1,12 @@
+{
+  "src": "/src/gpac",
+  "file": "/out/fuzz_probe_analyze",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "gsfdmx_finalize"
+  ],
+  "patch": "https://github.com/gpac/gpac/commit/7e2d00903eb2c484abfc7e1e3547be6a0e5bd3df"
+}

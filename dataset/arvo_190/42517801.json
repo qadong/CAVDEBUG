@@ -1,0 +1,12 @@
+{
+  "src": "/src/oniguruma",
+  "file": "/out/fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "gb18030_mbc_enc_len"
+  ],
+  "patch": "https://github.com/kkos/oniguruma/commit/34eac8830181bc348dab845932ae3368d1bcf3ff"
+}

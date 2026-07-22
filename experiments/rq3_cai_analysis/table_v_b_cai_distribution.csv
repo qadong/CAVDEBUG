@@ -1,0 +1,13 @@
+dataset,cai_type,instances,ssc_positive,ssc_percent
+SECBENCH,Boundary/capacity,59,31,52.5
+SECBENCH,Arithmetic safety,19,11,57.9
+SECBENCH,Initialization/nullness,27,11,40.7
+SECBENCH,Lifetime/ownership,35,22,62.9
+SECBENCH,Protocol/state,32,19,59.4
+SECBENCH,Type/tag consistency,28,8,28.6
+ARVO-Rand,Boundary/capacity,65,,
+ARVO-Rand,Arithmetic safety,16,,
+ARVO-Rand,Initialization/nullness,31,,
+ARVO-Rand,Lifetime/ownership,43,,
+ARVO-Rand,Protocol/state,19,,
+ARVO-Rand,Type/tag consistency,16,,

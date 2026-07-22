@@ -1,0 +1,15 @@
+{
+  "src": "/src/md4c",
+  "file": "/out/fuzz-mdhtml",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "md_build_attribute"
+  ],
+  "pre_build": [
+    "rm -rf /src/md4c/build"
+  ],
+  "patch": "https://github.com/mity/md4c/commit/62b60979f6a281b2b3cf883abc84299431fe2f76"
+}

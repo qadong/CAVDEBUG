@@ -1,0 +1,15 @@
+{
+  "src": "/src/jq",
+  "file": "/out/jq_fuzz_execute",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "decNumberCopy"
+  ],
+  "pre_build": [
+    "rm -rf /src/seeds"
+  ],
+  "patch": "https://github.com/jqlang/jq/commit/c9a51565214eece8f1053089739aea73145bfd6b"
+}
