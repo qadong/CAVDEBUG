@@ -212,4 +212,4 @@ python -m unittest discover -s tests
 
 ## Additional artifacts
 
-Baseline outputs and detailed CAVDBG trajectories are hosted separately on :
+Baseline outputs and detailed CAVDBG trajectories are hosted separately.
