@@ -1,0 +1,12 @@
+{
+  "src": "/src/selinux",
+  "file": "/out/binpolicy-fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "cond_expr_to_str"
+  ],
+  "patch": "https://github.com/SELinuxProject/selinux/commit/c3f0124b1817dd4bdc79c86491d77a7a2b08d479"
+}

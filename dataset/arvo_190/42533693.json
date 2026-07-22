@@ -1,0 +1,16 @@
+{
+  "src": "/src/gpac",
+  "file": "/out/fuzz_probe_analyze",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "rtpin_satip_get_server_ip"
+  ],
+  "build": "cd .. && bear arvo compile",
+  "post_build": [
+    "mv ../compile_commands.json ."
+  ],
+  "patch": "https://github.com/gpac/gpac/commit/c29f928f4e110ec8b6520e664d2e5ddbebd06a11"
+}

@@ -1,0 +1,15 @@
+{
+  "src": "/src/gpac",
+  "file": "/out/fuzz_route",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "gf_netcap_load_pck"
+  ],
+  "pre_build": [
+    "sed -i '3s/.*/make -j/' /src/build.sh"
+  ],
+  "patch": "https://github.com/gpac/gpac/commit/176b123cc5aaf5230046d8d5bdf9a8f0e216e4ac"
+}

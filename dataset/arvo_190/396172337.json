@@ -1,0 +1,12 @@
+{
+  "src": "/src/libconfig",
+  "file": "/out/config_read_fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "fuzz_data_content"
+  ],
+  "patch": "https://github.com/hyperrealm/libconfig/commit/f55523ab4722b216349d909bf770f7a84b4f4c67"
+}

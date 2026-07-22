@@ -1,0 +1,12 @@
+{
+  "src": "/src/quickjs",
+  "file": "/out/fuzz_eval",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "list_del"
+  ],
+  "patch": "https://github.com/bellard/quickjs/commit/0c5d59f6a9f1fb6935e263603d2e8d45b9559fd5"
+}

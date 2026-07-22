@@ -1,0 +1,15 @@
+{
+  "src": "/src/jq",
+  "file": "/out/jq_fuzz_compile",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "decUnitCompare"
+  ],
+  "pre_build": [
+    "rm -rf /src/seeds"
+  ],
+  "patch": "https://github.com/jqlang/jq/commit/3fa10e8cc197390392f5f5f6e0c9e2fcd5590530"
+}

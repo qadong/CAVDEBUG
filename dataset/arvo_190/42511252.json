@@ -1,0 +1,16 @@
+{
+  "src": "/src/libdwarf",
+  "file": "/out/fuzz_init_path",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "is_full_path"
+  ],
+  "pre_build": [
+    "rm -rf /src/corp",
+    "rm -rf /src/libdwarf/build/"
+  ],
+  "patch": "https://github.com/davea42/libdwarf-code/commit/24dff940cc4c71a9c3cb5475aee231b19163a12c"
+}

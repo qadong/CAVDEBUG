@@ -1,0 +1,12 @@
+{
+  "src": "/src/msquic",
+  "file": "/out/fuzz",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "QuicSettingsGlobalSettingsToInternal"
+  ],
+  "patch": "https://github.com/microsoft/msquic/commit/2dfbdcbceb6c17abb6a0b5ac5ba86e955db6f2f8"
+}

@@ -1,0 +1,12 @@
+{
+  "src": "/src/krb5",
+  "file": "/out/fuzz_kdc",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "k5_hashtab_add"
+  ],
+  "patch": "https://github.com/krb5/krb5/commit/ead2a8b253c7db8d17a0765044947c5fbd564bc4"
+}

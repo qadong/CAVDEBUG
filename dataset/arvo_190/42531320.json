@@ -1,0 +1,16 @@
+{
+  "src": "/src/gpac",
+  "file": "/out/fuzz_probe_analyze",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "BS_ReadByte"
+  ],
+  "build": "cd .. && bear arvo compile",
+  "post_build": [
+    "mv ../compile_commands.json ."
+  ],
+  "patch": "https://github.com/gpac/gpac/commit/9b3d814db48ba2262e58dc83c44bacf2c82236c4"
+}

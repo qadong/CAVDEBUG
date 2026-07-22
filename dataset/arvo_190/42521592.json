@@ -1,0 +1,16 @@
+{
+  "src": "/src/libdwarf",
+  "file": "/out/fuzz_str_offsets",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "_dwarf_memcpy_noswap_bytes"
+  ],
+  "pre_build": [
+    "rm -rf /src/corp",
+    "rm -rf /src/libdwarf/build/"
+  ],
+  "patch": "https://github.com/davea42/libdwarf-code/commit/0343c63bd04d387924974e6da60d8471fdf945a9"
+}

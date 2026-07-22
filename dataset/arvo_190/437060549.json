@@ -1,0 +1,16 @@
+{
+  "src": "/src/libdwarf",
+  "file": "/out/fuzz_globals",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "_dwarf_memcpy_noswap_bytes"
+  ],
+  "pre_build": [
+    "rm -rf /src/corp",
+    "rm -rf /src/libdwarf/build/"
+  ],
+  "patch": "https://github.com/davea42/libdwarf-code/commit/efa242489a69b13bc6eedc6766880335ac42d158"
+}

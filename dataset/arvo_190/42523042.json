@@ -1,0 +1,16 @@
+{
+  "src": "/src/libdwarf",
+  "file": "/out/fuzz_die_cu_print",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "_dwarf_memcpy_noswap_bytes"
+  ],
+  "pre_build": [
+    "rm -rf /src/corp",
+    "rm -rf /src/libdwarf/build/"
+  ],
+  "patch": "https://github.com/davea42/libdwarf-code/commit/761da806fc950c6b26c1763e8989a814e9b16a59"
+}

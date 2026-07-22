@@ -1,0 +1,12 @@
+{
+  "src": "/src/selinux",
+  "file": "/out/secilc-fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "__cil_verify_classperms"
+  ],
+  "patch": "https://github.com/SELinuxProject/selinux/commit/e81c466bca9a06e2ada7d783fe31dd44c9e04432"
+}

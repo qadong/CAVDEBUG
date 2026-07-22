@@ -1,0 +1,12 @@
+{
+  "src": "/src/selinux",
+  "file": "/out/binpolicy-fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "hashtab_insert"
+  ],
+  "patch": "https://github.com/SELinuxProject/selinux/commit/748614b73cadd3e9da94de7fc466598eca6667aa"
+}

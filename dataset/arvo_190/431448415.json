@@ -1,0 +1,15 @@
+{
+  "src": "/src/gpac",
+  "file": "/out/fuzz_probe_analyze",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "gf_odf_ac4_cfg_clean_list"
+  ],
+  "pre_build": [
+    "sed -i '3s/.*/make -j/' /src/build.sh"
+  ],
+  "patch": "https://github.com/gpac/gpac/commit/ac2e285f94d58c8d9d91ee4ec3a2564f99d43194"
+}

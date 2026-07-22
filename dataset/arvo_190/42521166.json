@@ -1,0 +1,15 @@
+{
+  "src": "/src/hdf5",
+  "file": "/out/h5_extended_fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "H5O__fsinfo_decode"
+  ],
+  "pre_build": [
+    "rm -rf /src/hdf5/build-dir"
+  ],
+  "patch": "https://github.com/HDFGroup/hdf5/commit/9e765b9c43c89ad88971e8f0ecae7d610f2cd463"
+}

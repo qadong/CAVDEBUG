@@ -1,0 +1,16 @@
+{
+  "src": "/src/libredwg",
+  "file": "/out/llvmfuzz",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "bit_read_BB"
+  ],
+  "build": "cd .. && bear arvo compile",
+  "post_build": [
+    "mv ../compile_commands.json ."
+  ],
+  "patch": "https://github.com/LibreDWG/libredwg/commit/64551d511471a4a6ca40e08d8c33659a5a52d06f"
+}

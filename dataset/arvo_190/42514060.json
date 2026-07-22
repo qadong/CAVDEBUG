@@ -1,0 +1,12 @@
+{
+  "src": "/src/e2fsprogs",
+  "file": "/out/ext2fs_read_bitmap_fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "ba_get_bmap_range"
+  ],
+  "patch": "https://github.com/tytso/e2fsprogs/commit/ab51d587bb9b229b1fade1afd02e1574c1ba5c76"
+}

@@ -1,0 +1,12 @@
+{
+  "src": "/src/moddable",
+  "file": "/out/xst",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "fxGetNextEntity"
+  ],
+  "patch": "https://github.com/Moddable-OpenSource/moddable/commit/d0a8137a34a33b5fee83191454aedb9ee27f6b36"
+}

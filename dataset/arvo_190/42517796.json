@@ -1,0 +1,12 @@
+{
+  "src": "/src/oniguruma",
+  "file": "/out/fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "onigenc_mbn_mbc_case_fold"
+  ],
+  "patch": "https://github.com/kkos/oniguruma/commit/34eac8830181bc348dab845932ae3368d1bcf3ff"
+}

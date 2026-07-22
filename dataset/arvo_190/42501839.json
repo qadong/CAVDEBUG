@@ -1,0 +1,16 @@
+{
+  "src": "/src/libucl",
+  "file": "/out/ucl_add_string_fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "ucl_hash_func"
+  ],
+  "build": "cd .. && bear arvo compile",
+  "post_build": [
+    "mv ../compile_commands.json ."
+  ],
+  "patch": "https://github.com/vstakhov/libucl/commit/a9c0965ebe15c1f8a79709bd0214cd7ea887fb7b"
+}

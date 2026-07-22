@@ -1,0 +1,12 @@
+{
+  "src": "/src/wolfmqtt",
+  "file": "/out/wolfmqtt-fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "MqttDecode_Num"
+  ],
+  "patch": "https://github.com/wolfSSL/wolfMQTT/commit/d1f51d95d42d0f25fac7ecc691f974f369832f91"
+}

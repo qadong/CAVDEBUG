@@ -1,0 +1,19 @@
+{
+  "src": "/src/kamailio",
+  "file": "/out/fuzz_parse_msg",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "extract_mediaip"
+  ],
+  "pre_build": [
+    "rm -rf /src/kamailio/src/objects/"
+  ],
+  "build": "cd .. && bear arvo compile",
+  "post_build": [
+    "mv ../compile_commands.json ."
+  ],
+  "patch": "https://github.com/kamailio/kamailio/commit/200cdb318569191cd012dfe99b252f98fe9623b9"
+}

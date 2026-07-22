@@ -1,0 +1,15 @@
+{
+  "src": "/src/miniz",
+  "file": "/out/uncompress2_fuzzer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "tinfl_decompress"
+  ],
+  "pre_build": [
+    "rm -rf /src/miniz/build"
+  ],
+  "patch": "https://github.com/richgel999/miniz/commit/9eedb97176408008a2263cef9b4bac5c7f955d4f"
+}

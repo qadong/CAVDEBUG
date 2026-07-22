@@ -1,0 +1,15 @@
+{
+  "src": "/src/h3",
+  "file": "/out/fuzzerPolygonToCellsExperimentalNoHoles",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "polygonToCellsExperimental"
+  ],
+  "pre_build": [
+    "rm -rf /src/h3/build"
+  ],
+  "patch": "https://github.com/uber/h3/commit/573ff1e7f313d468a1c6155a7f2a0961a3f0dc29"
+}

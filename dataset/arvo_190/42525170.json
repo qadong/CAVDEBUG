@@ -1,0 +1,12 @@
+{
+  "src": "/src/FreeRDP",
+  "file": "/out/TestFuzzCommonAssistanceParseFileBuffer",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "freerdp_assistance_parse_file_buffer"
+  ],
+  "patch": "https://github.com/FreeRDP/FreeRDP/commit/89bbed83db22b8d63b3e6354963d8d595199304e"
+}

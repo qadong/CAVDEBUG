@@ -1,0 +1,12 @@
+{
+  "src": "/src/pjsip",
+  "file": "/out/fuzz-stun",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "decode_errcode_attr"
+  ],
+  "patch": "https://github.com/pjsip/pjproject/commit/bc4812d31a67d5e2f973fbfaf950d6118226cf36"
+}

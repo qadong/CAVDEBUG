@@ -1,0 +1,4 @@
+STALKER_PATH: ./stalker
+CLANGD_PATH: ./opt/clangd
+LLDBMI_PATH: ./opt/lldb-mi
+PYTHON_PATH: /path/to/your/python/env

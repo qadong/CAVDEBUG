@@ -1,0 +1,12 @@
+{
+  "src": "/src/liblouis",
+  "file": "/out/fuzz_translate_generic",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "makeCorrections"
+  ],
+  "patch": "https://github.com/liblouis/liblouis/commit/1c5432a12e541f597bdc43b7c67ee828df3c49e1"
+}

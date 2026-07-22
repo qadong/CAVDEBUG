@@ -1,0 +1,12 @@
+{
+  "src": "/src/mosquitto",
+  "file": "/out/lib_fuzz_utf8",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "mosquitto_validate_utf8"
+  ],
+  "patch": "https://github.com/eclipse/mosquitto/commit/769c94a10373db28ff0d63f25e6d382f5db3ec3c"
+}

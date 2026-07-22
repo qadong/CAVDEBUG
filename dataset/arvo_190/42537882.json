@@ -1,0 +1,12 @@
+{
+  "src": "/src/rtpproxy",
+  "file": "/out/fuzz_rtp_session",
+  "args": [
+    "/tmp/poc"
+  ],
+  "env": {},
+  "functions": [
+    "LLVMFuzzerTestOneInput"
+  ],
+  "patch": "https://github.com/sippy/rtpproxy/commit/e001c6e03f2fd04d13376f5fbaa69b1ec02cd4f5"
+}
